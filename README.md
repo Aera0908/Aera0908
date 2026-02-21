@@ -22,11 +22,6 @@ Muntinlupa City, Philippines
 - Participant: CPE Challenge 2024 (Java Programming by ICpEP.se)  
 - Project: Developed a School Clinic Web Booking System (Database, UI, and backend integration)
 
-### Muntinlupa Science High School  
-**Senior & Junior High School** | 2016 – 2020  
-- Managed the Xepto Education website during work immersion  
-- Built and programmed an automotive robot (DRRR project)
-
 Socials:
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Aera0908) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aira-josh-ynte-755353322) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ynte.airajosh.c.108@cdm.edu.ph) 
