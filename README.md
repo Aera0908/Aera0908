@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="http://github.com/Aera0908/Aera0908/blob/main/name_banner.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Aera0908/Aera0908/main/name_banner.svg" width="100%"/>
 
 </div>
 
