@@ -1,0 +1,27 @@
+<svg width="680" height="160" viewBox="0 0 680 160" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>AIRA JOSH C. YNTE — Cyberpunk Name Banner</title>
+<defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+    .cpname { font-family: 'Share Tech Mono', monospace; fill: #f8e602; letter-spacing: 0.18em; }
+    .cpsub  { font-family: 'Share Tech Mono', monospace; fill: #02d7f2; letter-spacing: 0.22em; }
+    .cptag  { font-family: 'Share Tech Mono', monospace; fill: #ff2d78; letter-spacing: 0.15em; }
+  </style>
+</defs>
+<polygon points="60,18 620,18 660,58 660,142 620,142 60,142 20,102 20,18" fill="none" stroke="#ff2d78" stroke-width="1" opacity="0.35"/>
+<polygon points="62,20 618,20 658,60 658,140 618,140 62,140 22,100 22,20" fill="none" stroke="#02d7f2" stroke-width="1" opacity="0.5"/>
+<polygon points="64,22 616,22 656,62 656,138 616,138 64,138 24,98 24,22" fill="#080808"/>
+<polygon points="64,22 616,22 656,62 656,138 616,138 64,138 24,98 24,22" fill="none" stroke="#f8e602" stroke-width="1.5"/>
+<line x1="616" y1="22" x2="656" y2="62" stroke="#f8e602" stroke-width="1.5"/>
+<line x1="612" y1="26" x2="648" y2="62" stroke="#02d7f2" stroke-width="0.75" opacity="0.6"/>
+<line x1="64" y1="138" x2="24" y2="98" stroke="#f8e602" stroke-width="1.5"/>
+<line x1="68" y1="134" x2="32" y2="98" stroke="#ff2d78" stroke-width="0.75" opacity="0.6"/>
+<line x1="64" y1="44" x2="616" y2="44" stroke="#f8e602" stroke-width="0.4" opacity="0.15"/>
+<line x1="48" y1="116" x2="632" y2="116" stroke="#f8e602" stroke-width="0.4" opacity="0.15"/>
+<polyline points="28,30 28,22 36,22" fill="none" stroke="#02d7f2" stroke-width="1.2"/>
+<polyline points="652,130 652,138 644,138" fill="none" stroke="#ff2d78" stroke-width="1.2"/>
+<text x="36" y="40" class="cptag" font-size="9">// NETRUNNER_ID</text>
+<text x="340" y="95" class="cpname" font-size="28" text-anchor="middle" font-weight="700">AIRA JOSH C. YNTE</text>
+<text x="340" y="122" class="cpsub" font-size="10" text-anchor="middle">SOFTWARE ENGINEER  ·  SYSTEM ARCHITECT  ·  BSCPE 2026</text>
+<text x="644" y="134" class="cptag" font-size="9" text-anchor="end">STATUS: [ACTIVE] //</text>
+</svg>
