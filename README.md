@@ -1,49 +1,124 @@
-About Me:
+<div align="center">
 
-I am **Aira Josh Ynte**. 
-**Computer Engineering Student | Colegio de Muntinlupa**
-Digital Systems | Web Development | AI Integration | Hardware Programming | Circuit Design
+# AIRA JOSH C. YNTE
+
+**Software Engineer · System Architect · Computer Engineering**
+Colegio de Muntinlupa · Metro Manila, Philippines · Expected July 2026
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aira-josh-ynte-755353322)
+[![Portfolio](https://img.shields.io/badge/Portfolio-aera0908.github.io-black?logo=github)](https://aera0908.github.io)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Aera0908-orange?logo=leetcode&logoColor=white)](https://leetcode.com/u/Aera0908)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:08airajosh@gmail.com)
+
+</div>
 
 ---
 
-## About Me
-
-I am a detail-oriented student with a strong foundation in digital circuit design, logic simulation, and hardware programming. I have hands-on experience using EDA tools, programming languages, and modern web technologies. I apply my technical skills to real-world projects, building everything from hardware circuits to AI-enhanced web interfaces. I am actively seeking internship opportunities to further develop these skills.
+Detail-oriented **Computer Engineering** graduate (expected July 2026) specializing in software architecture and full-stack development. Delivered production-ready Web2/Web3 systems, IoT dashboards, and AI-integrated apps. Seeking roles in software engineering, system architecture, and applied AI.
 
 ---
 
-## Education
+## 💼 Experience
 
-### Colegio de Muntinlupa  
-**Bachelor of Science in Computer Engineering** | 2020 – 2026 (Expected)  
-Muntinlupa City, Philippines  
-- Focus: Digital electronics, circuit design, and computer architecture  
-- Experience: Hardware assembly, robotics, and system simulation  
-- Participant: CPE Challenge 2024 (Java Programming by ICpEP.se)  
-- Project: Developed a School Clinic Web Booking System (Database, UI, and backend integration)
+| Role | Where | When |
+|---|---|---|
+| IC Design Intern (OJT) | Xinyx Design Consultancy & Services Inc. | 2025 |
+| Freelance Web3 & Full-Stack Developer | Various Clients | 2023 – Present |
 
-Socials:
+**@ Xinyx** — Designed & verified AMBA APB3 peripheral interfaces in SystemVerilog RTL; IC design workflows & circuit simulation.
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Aera0908) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aira-josh-ynte-755353322) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ynte.airajosh.c.108@cdm.edu.ph) 
+**Freelance** — Web2/Web3 dashboards, PostgreSQL schema optimization, Node.js/Express microservices, MetaMask EIP-1193 signing, crypto payment rail integration.
 
-Certifications:
+---
 
-- [Zuitt Game Dev Certificate](https://github.com/Aera0908/certificates/raw/main/Aira%20Josh%20C.%20Ynte%20Basic%20Web%20Development%20Workshop%20(June%2015)%20-%20Certificate%20of%20Participation%20(1).pdf)
-- [Scrimba Learn React Certificate](https://github.com/Aera0908/certificates/raw/main/Learn%20React%20Certificate.pdf)
-- [Scrimba Learn TailwindCSS Certificate](https://github.com/Aera0908/certificates/raw/main/Learn%20Tailwind%20CSS.pdf)
-- [Scrimba The AI Engineer Path Certificate](https://github.com/Aera0908/certificates/raw/main/The%20AI%20Engineer%20Path.pdf)
+## 🚀 Projects
 
-Tech Stack:
+| Project | Stack | Year |
+|---|---|---|
+| [**Fehuvia**](https://fehuvia.app) — Web3 B2B Treasury Workstation | React 19, Solidity, Morph L2, PostgreSQL, OpenAI GPT-4o | 2026 |
+| [**AeroVit**](https://aerovit.dev) — Gamified AI Fitness Platform | Flutter, ESP32-S3, MediaPipe, Flame 2D, ERC-20, Firebase | 2024–2026 |
+| **Plant.io** — 8-bit IoT Nursery Dashboard | Flutter, Firebase RTDB, ESP32, Open-Meteo API | 2025 |
+| **The Safehouse** — 3D Scroll Narrative Site | React 19, Three.js, R3F, GSAP, Lenis, Rive | 2025–Present |
+| **Student Consultation System** — Full-Stack Portal | React, TypeScript, Node.js, Express, PostgreSQL, JWT | 2025 |
+| **Walang Basagan ng Thrift** — Y2K E-commerce | React 19, TypeScript, Node.js, SQLite, Tailwind CSS | 2025 |
+| **EMG Interface Controller** — Hardware + CV | ESP32-S3, C/C++, Python, KiCad, Fusion 360, pynput | Academic |
+| **Manhwa Reader** — SPA Web App | React 19, TypeScript, Vite, MangaDex API | 2026 |
 
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Adobe Creative Cloud](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26.svg?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white) ![Adobe Fonts](https://img.shields.io/badge/Adobe%20Fonts-000B1D.svg?style=for-the-badge&logo=Adobe%20Fonts&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B) ![Sketch Up](https://img.shields.io/badge/SketchUp-005F9E?style=for-the-badge&logo=sketchup&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+---
 
-GitHub Stats:
+## 🛠 Tech Stack
 
-![](https://github-readme-stats.vercel.app/api?username=Aera0908&theme=omni&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Aera0908&theme=omni&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Aera0908&theme=omni&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+**Languages**
+![JS](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
+![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=flat&logo=php&logoColor=white)
 
+**Frontend**
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-black?style=flat&logo=three.js&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat&logo=greensock&logoColor=black)
+![Framer](https://img.shields.io/badge/Framer_Motion-black?style=flat&logo=framer&logoColor=white)
 
+**Backend & DB**
+![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-black?style=flat&logo=express&logoColor=white)
+![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=flat&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-a08021?style=flat&logo=firebase&logoColor=ffcd34)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
+**Web3 & AI**
+![Solidity](https://img.shields.io/badge/Hardhat-FFF100?style=flat&logo=ethereum&logoColor=black)
+![Ethers](https://img.shields.io/badge/Ethers.js-2535A0?style=flat&logo=ethereum&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_GPT--4o-412991?style=flat&logo=openai&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat&logo=google&logoColor=white)
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+**Hardware & Embedded**
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
+![RaspberryPi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat&logo=raspberry-pi&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
+
+**Tools**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat&logo=kicad&logoColor=white)
+![Adobe CC](https://img.shields.io/badge/Adobe_CC-DA1F26?style=flat&logo=Adobe%20Creative%20Cloud&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-%23F5792A.svg?style=flat&logo=blender&logoColor=white)
+
+---
+
+## 📜 Certifications
+
+| Certificate | Issuer |
+|---|---|
+| On-the-Job Training | Xinyx Design Engineering, Inc. |
+| TINA Design Suite Workshop | Hytec Power, Inc. |
+| The AI Engineer Path | Scrimba |
+| Learn React | Scrimba |
+| Learn TailwindCSS | Scrimba |
+| Blockchain4Youth | Bitget |
+| Understanding EDR | Cybersecurity Training |
+| Basic Web Development Workshop | Zuitt |
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Stats](https://github-readme-stats.vercel.app/api?username=Aera0908&theme=omni&hide_border=false&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github)
+![Streak](https://nirzak-streak-stats.vercel.app/?user=Aera0908&theme=omni&hide_border=false)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aera0908&theme=omni&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+</div>
