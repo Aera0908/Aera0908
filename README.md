@@ -30,8 +30,10 @@
 ### `> NETRUNNER CONSOLE STATUS`
 
 </div>
-
-```text
+<table align="center">
+<tr>
+<td>
+<pre>
 =============================================================================
 [ DECK OWNER: AIRA JOSH ]   [ OS: NEURAL_OS v4.26 ]   [ STATUS: OVERCLOCKED ]
 =============================================================================
@@ -46,7 +48,10 @@
   - TRAINING    : Optimizing real-time MediaPipe motion tracking for AeroVit
   - RESEARCHING : Reviewing advanced Solidity gas structures & Morph L2 fees
 =============================================================================
-```
+</pre>
+</td>
+</tr>
+</table>
 
 <div align="center">
 
@@ -151,12 +156,12 @@
 <tr>
 <td align="center" width="50%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Aera0908&show_icons=true&bg_color=08080a&title_color=f8e602&icon_color=02d7f2&text_color=ffffff&border_color=ff2d78&hide=stars" alt="GitHub Stats" width="90%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aera0908&theme=tokyonight" alt="GitHub Stats" width="95%"/>
 
 </td>
 <td align="center" width="50%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aera0908&layout=compact&bg_color=08080a&title_color=f8e602&icon_color=02d7f2&text_color=ffffff&border_color=02d7f2&langs_count=6" alt="Top Languages" width="90%"/>
+<img src="https://streak-stats.demolab.com/?user=Aera0908&theme=tokyonight&background=0a0a0c&title=e0af68&currStreakLabel=7dcfff&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&ring=f7768e&fire=f7768e&stroke=f7768e" alt="GitHub Streak" width="95%"/>
 
 </td>
 </tr>
