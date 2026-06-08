@@ -29,20 +29,6 @@
 
 </div>
 
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║              // NETRUNNER PROFILE — AIRA JOSH                ║
-║  CLASS   : Software Engineer & System Architect              ║
-║  CITY    : Metro Manila, Philippines                         ║
-║  FACTION : Colegio de Muntinlupa — BSCpE 2026                ║
-║  STATUS  : [ACTIVE] — Seeking contracts & engagements        ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
 ---
 
 <img src="https://capsule-render.vercel.app/api?type=shark&color=0:0a0a0a,100:f8e602&height=60&section=header" width="100%"/>
@@ -51,10 +37,10 @@
 
 ## `> WORK HISTORY`
 
-| Role | Organization | Period |
-|:---|:---|:---:|
-| IC Design Intern (OJT) | Xinyx Design Consultancy & Services Inc. | 2025 |
-| Freelance Web3 & Full-Stack Developer | Various Clients | 2023 – Present |
+| Role                                  | Organization                             |     Period     |
+| :------------------------------------ | :--------------------------------------- | :------------: |
+| IC Design Intern (OJT)                | Xinyx Design Consultancy & Services Inc. |      2025      |
+| Freelance Web3 & Full-Stack Developer | Various Clients                          | 2023 – Present |
 
 **Xinyx** — Designed & verified AMBA APB3 peripheral interfaces in SystemVerilog RTL; IC design workflows & circuit simulation.
 
@@ -74,16 +60,16 @@
 
 <br/><br/>
 
-| Project | Stack | Year |
-|:---|:---|:---:|
-| [**Fehuvia**](https://fehuvia.app) — Web3 B2B Treasury Workstation | React 19, Solidity, Morph L2, PostgreSQL, GPT-4o | 2026 |
-| [**AeroVit**](https://aerovit.dev) — Gamified AI Fitness Platform | Flutter, ESP32-S3, MediaPipe, Flame 2D, ERC-20 | 2024–2026 |
-| **Plant.io** — 8-bit IoT Nursery Dashboard | Flutter, Firebase RTDB, ESP32, Open-Meteo | 2025 |
-| **The Safehouse** — 3D Scroll Narrative Site | React 19, Three.js, R3F, GSAP, Lenis, Rive | 2025–Present |
-| **Student Consultation System** — Full-Stack Portal | React, TypeScript, Node.js, PostgreSQL, JWT | 2025 |
-| **Walang Basagan ng Thrift** — Y2K E-commerce | React 19, TypeScript, Node.js, SQLite | 2025 |
-| **EMG Interface Controller** — Hardware + CV | ESP32-S3, C/C++, Python, KiCad, Fusion 360 | Academic |
-| **Manhwa Reader** — SPA Web App | React 19, TypeScript, Vite, MangaDex API | 2026 |
+| Project                                                            | Stack                                            |     Year     |
+| :----------------------------------------------------------------- | :----------------------------------------------- | :----------: |
+| [**Fehuvia**](https://fehuvia.app) — Web3 B2B Treasury Workstation | React 19, Solidity, Morph L2, PostgreSQL, GPT-4o |     2026     |
+| [**AeroVit**](https://aerovit.dev) — Gamified AI Fitness Platform  | Flutter, ESP32-S3, MediaPipe, Flame 2D, ERC-20   |  2024–2026   |
+| **Plant.io** — 8-bit IoT Nursery Dashboard                         | Flutter, Firebase RTDB, ESP32, Open-Meteo        |     2025     |
+| **The Safehouse** — 3D Scroll Narrative Site                       | React 19, Three.js, R3F, GSAP, Lenis, Rive       | 2025–Present |
+| **Student Consultation System** — Full-Stack Portal                | React, TypeScript, Node.js, PostgreSQL, JWT      |     2025     |
+| **Walang Basagan ng Thrift** — Y2K E-commerce                      | React 19, TypeScript, Node.js, SQLite            |     2025     |
+| **EMG Interface Controller** — Hardware + CV                       | ESP32-S3, C/C++, Python, KiCad, Fusion 360       |   Academic   |
+| **Manhwa Reader** — SPA Web App                                    | React 19, TypeScript, Vite, MangaDex API         |     2026     |
 
 </div>
 
@@ -161,16 +147,16 @@
 
 ## `> CREDENTIALS`
 
-| Certificate | Issuer |
-|:---|:---|
-| On-the-Job Training | Xinyx Design Engineering, Inc. |
-| TINA Design Suite Workshop | Hytec Power, Inc. |
-| The AI Engineer Path | Scrimba |
-| Learn React | Scrimba |
-| Learn TailwindCSS | Scrimba |
-| Blockchain4Youth | Bitget |
-| Understanding EDR | Cybersecurity Training |
-| Basic Web Development Workshop | Zuitt |
+| Certificate                    | Issuer                         |
+| :----------------------------- | :----------------------------- |
+| On-the-Job Training            | Xinyx Design Engineering, Inc. |
+| TINA Design Suite Workshop     | Hytec Power, Inc.              |
+| The AI Engineer Path           | Scrimba                        |
+| Learn React                    | Scrimba                        |
+| Learn TailwindCSS              | Scrimba                        |
+| Blockchain4Youth               | Bitget                         |
+| Understanding EDR              | Cybersecurity Training         |
+| Basic Web Development Workshop | Zuitt                          |
 
 <br/>
 
