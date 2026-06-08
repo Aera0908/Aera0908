@@ -1,0 +1,71 @@
+<svg width="1000" height="130" viewBox="0 0 1000 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      .glow-text {
+        font-family: 'Share Tech Mono', monospace;
+        font-weight: 900;
+        font-size: 44px;
+        letter-spacing: 0.3em;
+        text-anchor: middle;
+      }
+      .sub-text {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-anchor: middle;
+        fill: #02d7f2;
+      }
+    </style>
+    <filter id="neon-glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Cyberpunk background panel with angled slice cuts -->
+  <polygon points="50,15 950,15 980,45 980,115 950,115 50,115 20,85 20,45" fill="#08080a" stroke="#f8e602" stroke-width="2" />
+  
+  <!-- Offset accent border line -->
+  <polygon points="52,17 948,17 978,47 978,113 948,113 52,113 22,83 22,47" fill="none" stroke="#ff2d78" stroke-width="0.75" opacity="0.65" />
+  <polygon points="48,13 952,13 982,43 982,117 952,117 48,117 18,87 18,43" fill="none" stroke="#02d7f2" stroke-width="0.75" opacity="0.65" />
+
+  <!-- Diagonal hazard warning stripes on left and right side -->
+  <g opacity="0.8">
+    <!-- Left warning stripes -->
+    <polygon points="45,25 52,25 42,37 35,37" fill="#ff2d78"/>
+    <polygon points="60,25 67,25 57,37 50,37" fill="#f8e602"/>
+    <polygon points="75,25 82,25 72,37 65,37" fill="#f8e602"/>
+    <polygon points="90,25 97,25 87,37 80,37" fill="#02d7f2"/>
+    
+    <!-- Right warning stripes -->
+    <polygon points="955,93 962,93 952,105 945,105" fill="#02d7f2"/>
+    <polygon points="940,93 947,93 937,105 930,105" fill="#f8e602"/>
+    <polygon points="925,93 932,93 922,105 915,105" fill="#f8e602"/>
+    <polygon points="910,93 917,93 907,105 900,105" fill="#ff2d78"/>
+  </g>
+
+  <!-- Technical lines & brackets inside the box -->
+  <line x1="120" y1="30" x2="880" y2="30" stroke="#ffffff" stroke-width="0.5" opacity="0.1" />
+  <line x1="120" y1="100" x2="880" y2="100" stroke="#ffffff" stroke-width="0.5" opacity="0.1" />
+
+  <!-- Glitchy layered text effect for "NEVER FADE AWAY" -->
+  <!-- Magenta offset -->
+  <text x="503" y="75" class="glow-text" fill="#ff2d78" opacity="0.75">NEVER FADE AWAY</text>
+  <!-- Cyan offset -->
+  <text x="497" y="75" class="glow-text" fill="#02d7f2" opacity="0.75">NEVER FADE AWAY</text>
+  <!-- Main yellow glow text -->
+  <text x="500" y="73" class="glow-text" fill="#f8e602" filter="url(#neon-glow)">NEVER FADE AWAY</text>
+  
+  <!-- Sub-telemetry status text -->
+  <text x="500" y="93" class="sub-text" opacity="0.85">
+    // SYSTEM_LOCK: SECURED | PROCESS: NEVER_FADE_AWAY.EXE //
+  </text>
+  
+  <!-- Small UI ticks and grid decorations -->
+  <rect x="30" y="50" width="3" height="30" fill="#02d7f2" />
+  <rect x="967" y="50" width="3" height="30" fill="#ff2d78" />
+</svg>
