@@ -27,6 +27,29 @@
 
 <div align="center">
 
+### `> NETRUNNER CONSOLE STATUS`
+
+</div>
+
+```text
+=============================================================================
+[ DECK OWNER: AIRA JOSH ]   [ OS: NEURAL_OS v4.26 ]   [ STATUS: OVERCLOCKED ]
+=============================================================================
+> SYSTEM SPECS:
+  - CYBERDECK   : Custom ESP32-S3 hardware array (Flame Engine core)
+  - NEURAL LINK : EIP-1193 MetaMask Integration Core
+  - COGNITIVE   : 256GB Neural RAM (Ultra-low Latency)
+  - GRID ADAPTR : Web3 Payment Rails (Morph L2 Interface)
+
+> CURRENT ACTIVE DIRECTIVES:
+  - HACKING     : Enhancing Fehuvia B2B treasury workstation microservices
+  - TRAINING    : Optimizing real-time MediaPipe motion tracking for AeroVit
+  - RESEARCHING : Reviewing advanced Solidity gas structures & Morph L2 fees
+=============================================================================
+```
+
+<div align="center">
+
 <img src="https://media.giphy.com/media/3VLajsSQMEMxvQQv8N/giphy.gif" width="480"/>
 
 </div>
@@ -115,6 +138,35 @@
 | **Walang Basagan ng Thrift** — Y2K E-commerce                      | React 19, TypeScript, Node.js, SQLite            |     2025     |
 | **EMG Interface Controller** — Hardware + CV                       | ESP32-S3, C/C++, Python, KiCad, Fusion 360       |   Academic   |
 | **Manhwa Reader** — SPA Web App                                    | React 19, TypeScript, Vite, MangaDex API         |     2026     |
+
+</div>
+
+<img src="design_elements/cyber_divider.svg" width="100%"/>
+
+<div align="center">
+
+## `> SYSTEM TELEMETRY`
+
+<table align="center" width="100%">
+<tr>
+<td align="center" width="50%" valign="top">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Aera0908&show_icons=true&bg_color=08080a&title_color=f8e602&icon_color=02d7f2&text_color=ffffff&border_color=ff2d78&hide=stars" alt="GitHub Stats" width="90%"/>
+
+</td>
+<td align="center" width="50%" valign="top">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aera0908&layout=compact&bg_color=08080a&title_color=f8e602&icon_color=02d7f2&text_color=ffffff&border_color=02d7f2&langs_count=6" alt="Top Languages" width="90%"/>
+
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<br/>
+<img src="https://leetcard.jacob.cai.workers.dev/?username=Aera0908&theme=dark" alt="LeetCode Stats" width="45%"/>
+</td>
+</tr>
+</table>
 
 </div>
 
