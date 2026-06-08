@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Aera0908/Aera0908/main/name_banner.svg" width="100%"/>
+<img src="design_elements/name_banner.png" width="100%"/>
 
 </div>
 
@@ -15,13 +15,11 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-f8e602?style=for-the-badge&logo=linkedin&logoColor=0a0a0a)](https://linkedin.com/in/aira-josh-ynte-755353322)
 [![Portfolio](https://img.shields.io/badge/Portfolio-ff2d78?style=for-the-badge&logo=github&logoColor=white)](https://aera0908.github.io)
 [![LeetCode](https://img.shields.io/badge/LeetCode-f8e602?style=for-the-badge&logo=leetcode&logoColor=0a0a0a)](https://leetcode.com/u/Aera0908)
-[![Fehuvia](https://img.shields.io/badge/Fehuvia-02d7f2?style=for-the-badge&logo=ethereum&logoColor=white)](https://fehuvia.app)
-[![AeroVit](https://img.shields.io/badge/AeroVit-f8e602?style=for-the-badge&logo=flutter&logoColor=0a0a0a)](https://aerovit.dev)
 [![Email](https://img.shields.io/badge/Email-ff2d78?style=for-the-badge&logo=gmail&logoColor=white)](mailto:08airajosh@gmail.com)
 
 </div>
 
----
+<img src="design_elements/cyber_divider.svg" width="100%"/>
 
 <div align="center">
 
@@ -29,9 +27,7 @@
 
 </div>
 
----
-
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:0a0a0a,100:f8e602&height=60&section=header" width="100%"/>
+<img src="design_elements/cyber_divider.svg" width="100%"/>
 
 <div align="center">
 
@@ -48,17 +44,62 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:f8e602,100:0a0a0a&height=60&section=footer" width="100%"/>
-
----
+<img src="design_elements/cyber_divider.svg" width="100%"/>
 
 <div align="center">
 
 ## `> COMPLETED MISSIONS`
 
-<img src="https://media.giphy.com/media/9D7Jr7VqzHiKPaAGmO/giphy.gif" width="460"/>
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjkwNDVkbDg5anhhN3NxYnBncDBjcm5zN2duMGZqM2lrMWN3bjl4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DnaRlPG4o53PGvgtPP/giphy.gif" width="460"/>
 
 <br/><br/>
+
+### `// FEATURED NEURAL PROJECTS`
+
+<table align="center" width="100%">
+<tr>
+<td align="center" width="50%" valign="top">
+
+<br/>
+<img src="project_logo/fehuvia_logo.png" height="100" alt="Fehuvia Logo"/>
+<h3><b>FEHUVIA</b></h3>
+<p><code>Web3 B2B Treasury Workstation</code></p>
+
+**Stack:** React 19, Solidity, Morph L2, PostgreSQL
+
+* Automated crypto payment rails
+* Multi-signature wallet workflows
+* Smart contract gas optimization
+
+<br/>
+<a href="https://fehuvia.app"><img src="design_elements/btn_fehuvia.svg" width="200" alt="Launch Fehuvia"/></a>
+<br/><br/>
+
+</td>
+<td align="center" width="50%" valign="top">
+
+<br/>
+<img src="project_logo/aerovit_logo.svg" height="100" alt="AeroVit Logo"/>
+<h3><b>AEROVIT</b></h3>
+<p><code>Gamified AI Fitness Platform</code></p>
+
+**Stack:** Flutter, ESP32-S3, Flame, MediaPipe
+
+* Real-time AI-driven motion tracking
+* Bluetooth IoT sensor integration
+* ERC-20 token rewards gamification
+
+<br/>
+<a href="https://aerovit.dev"><img src="design_elements/btn_aerovit.svg" width="200" alt="Launch AeroVit"/></a>
+<br/><br/>
+
+</td>
+</tr>
+</table>
+
+<br/><br/>
+
+### `// COMPLETE REGISTRY`
 
 | Project                                                            | Stack                                            |     Year     |
 | :----------------------------------------------------------------- | :----------------------------------------------- | :----------: |
@@ -73,7 +114,7 @@
 
 </div>
 
----
+<img src="design_elements/cyber_divider.svg" width="100%"/>
 
 <div align="center">
 
@@ -141,7 +182,7 @@
 </tr>
 </table>
 
----
+<img src="design_elements/cyber_divider.svg" width="100%"/>
 
 <div align="center">
 
@@ -160,10 +201,6 @@
 
 <br/>
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=venom&height=120&text=NEVER%20FADE%20AWAY&fontSize=28&color=0:ff2d78,50:f8e602,100:02d7f2&fontColor=f8e602&stroke=ff2d78&strokeWidth=1&section=footer" width="100%"/>
+<img src="design_elements/never_fade_away.svg" width="100%"/>
 
 </div>
