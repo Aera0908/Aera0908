@@ -110,7 +110,7 @@
 | [**Fehuvia**](https://fehuvia.app) — Web3 B2B Treasury Workstation | React 19, Solidity, Morph L2, PostgreSQL, GPT-4o |     2026     |
 | [**AeroVit**](https://aerovit.dev) — Gamified AI Fitness Platform  | Flutter, ESP32-S3, MediaPipe, Flame 2D, ERC-20   |  2024–2026   |
 | **Plant.io** — 8-bit IoT Nursery Dashboard                         | Flutter, Firebase RTDB, ESP32, Open-Meteo        |     2025     |
-| [**The Safehouse**](https://aera0908.github.io) — 3D Scroll Narrative Site                       | React 19, Three.js, R3F, GSAP, Lenis, Rive       | 2025–Present |
+| **The Safehouse** — 3D Scroll Narrative Site                       | React 19, Three.js, R3F, GSAP, Lenis, Rive       | 2025–Present |
 | **Student Consultation System** — Full-Stack Portal                | React, TypeScript, Node.js, PostgreSQL, JWT      |     2025     |
 | **Walang Basagan ng Thrift** — Y2K E-commerce                      | React 19, TypeScript, Node.js, SQLite            |     2025     |
 | **EMG Interface Controller** — Hardware + CV                       | ESP32-S3, C/C++, Python, KiCad, Fusion 360       |   Academic   |
