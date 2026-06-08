@@ -165,12 +165,6 @@
 
 </td>
 </tr>
-<tr>
-<td align="center" colspan="2">
-<br/>
-<img src="https://leetcard.jacob.cai.workers.dev/?username=Aera0908&theme=dark" alt="LeetCode Stats" width="45%"/>
-</td>
-</tr>
 </table>
 
 </div>
