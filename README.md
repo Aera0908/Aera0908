@@ -27,34 +27,6 @@
 
 <div align="center">
 
-### `> NETRUNNER CONSOLE STATUS`
-
-</div>
-<table align="center">
-<tr>
-<td>
-<pre>
-=============================================================================
-[ DECK OWNER: AIRA JOSH ]   [ OS: NEURAL_OS v4.26 ]   [ STATUS: OVERCLOCKED ]
-=============================================================================
-> SYSTEM SPECS:
-  - CYBERDECK   : Custom ESP32-S3 hardware array (Flame Engine core)
-  - NEURAL LINK : EIP-1193 MetaMask Integration Core
-  - COGNITIVE   : 256GB Neural RAM (Ultra-low Latency)
-  - GRID ADAPTR : Web3 Payment Rails (Morph L2 Interface)
-
-> CURRENT ACTIVE DIRECTIVES:
-  - HACKING     : Enhancing Fehuvia B2B treasury workstation microservices
-  - TRAINING    : Optimizing real-time MediaPipe motion tracking for AeroVit
-  - RESEARCHING : Reviewing advanced Solidity gas structures & Morph L2 fees
-=============================================================================
-</pre>
-</td>
-</tr>
-</table>
-
-<div align="center">
-
 <img src="https://media.giphy.com/media/3VLajsSQMEMxvQQv8N/giphy.gif" width="480"/>
 
 </div>
