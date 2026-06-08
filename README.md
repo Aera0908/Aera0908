@@ -17,6 +17,10 @@
 [![LeetCode](https://img.shields.io/badge/LeetCode-f8e602?style=for-the-badge&logo=leetcode&logoColor=0a0a0a)](https://leetcode.com/u/Aera0908)
 [![Email](https://img.shields.io/badge/Email-ff2d78?style=for-the-badge&logo=gmail&logoColor=white)](mailto:08airajosh@gmail.com)
 
+<br/><br/>
+
+<a href="https://aera0908.github.io"><img src="design_elements/btn_portfolio.svg" width="220" alt="Enter Portfolio"/></a>
+
 </div>
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
