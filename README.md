@@ -1,3 +1,104 @@
+<style>
+  /* Base styles */
+  .heavy-header {
+    opacity: 0;
+    animation: heavy-header-entry 1.2s cubic-bezier(0.19, 1, 0.22, 1) both;
+    transform-origin: left;
+    color: #f8e602;
+    text-shadow: 0 0 8px rgba(248, 230, 2, 0.4);
+  }
+
+  .light-content {
+    opacity: 0;
+    animation: light-content-entry 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  .banner-container {
+    opacity: 0;
+    animation: banner-entry 1s cubic-bezier(0.25, 1, 0.5, 1) both;
+  }
+
+  /* Keyframe Definitions */
+  @keyframes banner-entry {
+    0% {
+      opacity: 0;
+      transform: scale(0.97);
+      filter: blur(6px);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+      filter: blur(0);
+    }
+  }
+
+  @keyframes heavy-header-entry {
+    0% {
+      opacity: 0;
+      transform: translateX(-30px) skewX(-15deg);
+      filter: blur(6px) brightness(2.5);
+      color: #ff2d78;
+      text-shadow: 0 0 15px #ff2d78;
+    }
+    20% {
+      opacity: 0.8;
+      transform: translateX(8px) skewX(10deg);
+      filter: blur(1.5px) brightness(1.3);
+      color: #f8e602;
+      text-shadow: 0 0 8px #f8e602;
+    }
+    40% {
+      opacity: 0.3;
+      transform: translateX(-4px) skewX(-5deg);
+      filter: blur(3px) brightness(1.8);
+      color: #ff2d78;
+    }
+    60% {
+      opacity: 1;
+      transform: translateX(2px) skewX(2deg);
+      filter: blur(0.5px) brightness(1.1);
+      color: #f8e602;
+      text-shadow: 0 0 10px #f8e602;
+    }
+    80% {
+      opacity: 0.9;
+      transform: translateX(-1px) skewX(-1deg);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px) skewX(0deg);
+      filter: blur(0px) brightness(1);
+      color: #f8e602;
+      text-shadow: 0 0 4px rgba(248, 230, 2, 0.4);
+    }
+  }
+
+  @keyframes light-content-entry {
+    0% {
+      opacity: 0;
+      transform: translateY(12px);
+      filter: blur(3px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+      filter: blur(0);
+    }
+  }
+
+  /* Staggered animation delays */
+  .delay-1 { animation-delay: 0.1s; }
+  .delay-2 { animation-delay: 0.3s; }
+  .delay-3 { animation-delay: 0.5s; }
+  .delay-4 { animation-delay: 0.7s; }
+  .delay-5 { animation-delay: 0.9s; }
+  .delay-6 { animation-delay: 1.1s; }
+  .delay-7 { animation-delay: 1.3s; }
+  .delay-8 { animation-delay: 1.5s; }
+  .delay-9 { animation-delay: 1.7s; }
+</style>
+
+<div class="banner-container delay-1">
 <div align="center">
 
 <img src="design_elements/name_banner.png" width="100%"/>
@@ -22,10 +123,11 @@
 <a href="https://aera0908.github.io"><img src="design_elements/btn_portfolio.svg" width="220" alt="Enter Portfolio"/></a>
 
 </div>
+</div>
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
 
-<div align="center">
+<div class="light-content delay-2" align="center">
 
 <img src="https://media.giphy.com/media/3VLajsSQMEMxvQQv8N/giphy.gif" width="480"/>
 
@@ -33,9 +135,10 @@
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
 
+<div class="light-content delay-3">
 <div align="center">
 
-## `> WORK HISTORY`
+<h2 class="heavy-header">> WORK HISTORY</h2>
 
 | Role                                  | Organization                             |     Period     |
 | :------------------------------------ | :--------------------------------------- | :------------: |
@@ -47,20 +150,25 @@
 **Freelance** — Web2/Web3 dashboards, PostgreSQL schema optimization, Node.js/Express microservices, MetaMask EIP-1193, crypto payment rails.
 
 </div>
+</div>
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
 
+<div class="light-content delay-4">
 <div align="center">
 
-## `> COMPLETED MISSIONS`
+<h2 class="heavy-header">> COMPLETED MISSIONS</h2>
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjkwNDVkbDg5anhhN3NxYnBncDBjcm5zN2duMGZqM2lrMWN3bjl4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DnaRlPG4o53PGvgtPP/giphy.gif" width="460"/>
 
 <br/><br/>
 
-### `// FEATURED NEURAL PROJECTS`
+<h3 class="heavy-header">// FEATURED NEURAL PROJECTS</h3>
 
-<table align="center" width="100%">
+</div>
+</div>
+
+<table align="center" width="100%" class="light-content delay-5">
 <tr>
 <td align="center" width="50%" valign="top">
 
@@ -103,7 +211,10 @@
 
 <br/><br/>
 
-### `// COMPLETE REGISTRY`
+<div class="light-content delay-6">
+<div align="center">
+
+<h3 class="heavy-header">// COMPLETE REGISTRY</h3>
 
 | Project                                                            | Stack                                            |     Year     |
 | :----------------------------------------------------------------- | :----------------------------------------------- | :----------: |
@@ -117,12 +228,14 @@
 | **Manhwa Reader** — SPA Web App                                    | React 19, TypeScript, Vite, MangaDex API         |     2026     |
 
 </div>
+</div>
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
 
+<div class="light-content delay-7">
 <div align="center">
 
-## `> SYSTEM TELEMETRY`
+<h2 class="heavy-header">> SYSTEM TELEMETRY</h2>
 
 <table align="center" width="100%">
 <tr>
@@ -140,80 +253,118 @@
 </table>
 
 </div>
+</div>
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
 
+<div class="light-content delay-8">
 <div align="center">
 
-## `> CYBERWARE — TECH STACK`
+<h2 class="heavy-header">> CYBERWARE — TECH STACK</h2>
 
 </div>
 
 <table align="center">
 <tr>
-<td valign="top" align="center" width="25%">
+<td valign="top" align="center" width="20%">
 
 **`[ LANGUAGES ]`**
 
-![JS](https://img.shields.io/badge/JavaScript-f8e602?style=flat-square&logo=javascript&logoColor=0a0a0a)
-![TS](https://img.shields.io/badge/TypeScript-f8e602?style=flat-square&logo=typescript&logoColor=0a0a0a)
-![Python](https://img.shields.io/badge/Python-f8e602?style=flat-square&logo=python&logoColor=0a0a0a)
-![C++](https://img.shields.io/badge/C%2FC%2B%2B-02d7f2?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ff2d78?style=flat-square&logo=openjdk&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-f8e602?style=flat-square&logo=dart&logoColor=0a0a0a)
-![Solidity](https://img.shields.io/badge/Solidity-02d7f2?style=flat-square&logo=solidity&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-ff2d78?style=flat-square&logo=php&logoColor=white)
+<br/>
+
+<img src="https://cdn.simpleicons.org/javascript" width="36" height="36" alt="JavaScript" title="JavaScript"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/typescript" width="36" height="36" alt="TypeScript" title="TypeScript"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/python" width="36" height="36" alt="Python" title="Python"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/cplusplus" width="36" height="36" alt="C++" title="C++"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/java" width="36" height="36" alt="Java" title="Java"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/dart" width="36" height="36" alt="Dart" title="Dart"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/solidity/fff" width="36" height="36" alt="Solidity" title="Solidity"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/php" width="36" height="36" alt="PHP" title="PHP"/>
 
 </td>
-<td valign="top" align="center" width="25%">
+<td valign="top" align="center" width="20%">
 
 **`[ FRONTEND ]`**
 
-![React](https://img.shields.io/badge/React-f8e602?style=flat-square&logo=react&logoColor=0a0a0a)
-![Tailwind](https://img.shields.io/badge/Tailwind-f8e602?style=flat-square&logo=tailwind-css&logoColor=0a0a0a)
-![Three.js](https://img.shields.io/badge/Three.js-02d7f2?style=flat-square&logo=three.js&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-f8e602?style=flat-square&logo=flutter&logoColor=0a0a0a)
-![GSAP](https://img.shields.io/badge/GSAP-ff2d78?style=flat-square&logo=greensock&logoColor=white)
-![Framer](https://img.shields.io/badge/Framer_Motion-f8e602?style=flat-square&logo=framer&logoColor=0a0a0a)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-02d7f2?style=flat-square&logo=bootstrap&logoColor=white)
+<br/>
+
+<img src="https://cdn.simpleicons.org/react" width="36" height="36" alt="React" title="React"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/tailwindcss" width="36" height="36" alt="Tailwind CSS" title="Tailwind CSS"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/threedotjs" width="36" height="36" alt="Three.js" title="Three.js"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/flutter" width="36" height="36" alt="Flutter" title="Flutter"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/gsap" width="36" height="36" alt="GSAP" title="GSAP"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/framer" width="36" height="36" alt="Framer Motion" title="Framer Motion"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/bootstrap" width="36" height="36" alt="Bootstrap" title="Bootstrap"/>
 
 </td>
-<td valign="top" align="center" width="25%">
+<td valign="top" align="center" width="20%">
 
 **`[ BACKEND & DB ]`**
 
-![Node.js](https://img.shields.io/badge/Node.js-f8e602?style=flat-square&logo=node.js&logoColor=0a0a0a)
-![Express](https://img.shields.io/badge/Express-ff2d78?style=flat-square&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-02d7f2?style=flat-square&logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-f8e602?style=flat-square&logo=postgresql&logoColor=0a0a0a)
-![Firebase](https://img.shields.io/badge/Firebase-ff2d78?style=flat-square&logo=firebase&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-f8e602?style=flat-square&logo=mysql&logoColor=0a0a0a)
-![MongoDB](https://img.shields.io/badge/MongoDB-02d7f2?style=flat-square&logo=mongodb&logoColor=white)
+<br/>
+
+<img src="https://cdn.simpleicons.org/nodedotjs" width="36" height="36" alt="Node.js" title="Node.js"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/express/fff" width="36" height="36" alt="Express" title="Express"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/django" width="36" height="36" alt="Django" title="Django"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/postgresql" width="36" height="36" alt="PostgreSQL" title="PostgreSQL"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/firebase" width="36" height="36" alt="Firebase" title="Firebase"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/mysql" width="36" height="36" alt="MySQL" title="MySQL"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/mongodb" width="36" height="36" alt="MongoDB" title="MongoDB"/>
 
 </td>
-<td valign="top" align="center" width="25%">
+<td valign="top" align="center" width="20%">
 
 **`[ HARDWARE & AI ]`**
 
-![ESP32](https://img.shields.io/badge/ESP32-ff2d78?style=flat-square&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-f8e602?style=flat-square&logo=arduino&logoColor=0a0a0a)
-![KiCad](https://img.shields.io/badge/KiCad-02d7f2?style=flat-square&logo=kicad&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-f8e602?style=flat-square&logo=openai&logoColor=0a0a0a)
-![Hardhat](https://img.shields.io/badge/Hardhat-ff2d78?style=flat-square&logo=ethereum&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-f8e602?style=flat-square&logo=figma&logoColor=0a0a0a)
-![Git](https://img.shields.io/badge/Git-02d7f2?style=flat-square&logo=git&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-f8e602?style=flat-square&logo=vite&logoColor=0a0a0a)
-![Blender](https://img.shields.io/badge/Blender-ff2d78?style=flat-square&logo=blender&logoColor=white)
+<br/>
+
+<img src="https://cdn.simpleicons.org/espressif" width="36" height="36" alt="ESP32" title="ESP32"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/arduino" width="36" height="36" alt="Arduino" title="Arduino"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/kicad" width="36" height="36" alt="KiCad" title="KiCad"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/openai" width="36" height="36" alt="OpenAI" title="OpenAI"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/hardhat" width="36" height="36" alt="Hardhat" title="Hardhat"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/git" width="36" height="36" alt="Git" title="Git"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/vite" width="36" height="36" alt="Vite" title="Vite"/>
+
+</td>
+<td valign="top" align="center" width="20%">
+
+**`[ CREATIVE & VFX ]`**
+
+<br/>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" width="36" height="36" alt="Adobe Photoshop" title="Adobe Photoshop"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" width="36" height="36" alt="Adobe Illustrator" title="Adobe Illustrator"/>
+<br/><br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg" width="36" height="36" alt="Adobe Premiere Pro" title="Adobe Premiere Pro"/>&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg" width="36" height="36" alt="Adobe After Effects" title="Adobe After Effects"/>
+<br/><br/>
+<img src="https://cdn.simpleicons.org/figma" width="36" height="36" alt="Figma" title="Figma"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/blender" width="36" height="36" alt="Blender" title="Blender"/>
 
 </td>
 </tr>
 </table>
+</div>
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
 
+<div class="light-content delay-9">
 <div align="center">
 
-## `> CREDENTIALS`
+<h2 class="heavy-header">> CREDENTIALS</h2>
 
 | Certificate                    | Issuer                         |
 | :----------------------------- | :----------------------------- |
@@ -230,4 +381,5 @@
 
 <img src="design_elements/never_fade_away.svg" width="100%"/>
 
+</div>
 </div>
