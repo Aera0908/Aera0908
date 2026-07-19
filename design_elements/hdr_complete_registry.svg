@@ -1,0 +1,67 @@
+<svg width="600" height="50" viewBox="0 0 600 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      
+      .glow-shadow-pink {
+        font-family: 'Share Tech Mono', monospace;
+        font-weight: 700;
+        font-size: 18px;
+        text-anchor: middle;
+        letter-spacing: 0.1em;
+        fill: #ff2d78;
+        opacity: 0;
+        animation: glitch-pink 1.5s cubic-bezier(0.19, 1, 0.22, 1) both;
+      }
+      
+      .glow-shadow-cyan {
+        font-family: 'Share Tech Mono', monospace;
+        font-weight: 700;
+        font-size: 18px;
+        text-anchor: middle;
+        letter-spacing: 0.1em;
+        fill: #02d7f2;
+        opacity: 0;
+        animation: glitch-cyan 1.5s cubic-bezier(0.19, 1, 0.22, 1) both;
+      }
+      
+      .main-text {
+        font-family: 'Share Tech Mono', monospace;
+        font-weight: 700;
+        font-size: 18px;
+        text-anchor: middle;
+        letter-spacing: 0.1em;
+        fill: #f8e602;
+        opacity: 0;
+        animation: glitch-main 1.5s cubic-bezier(0.19, 1, 0.22, 1) both;
+      }
+
+      @keyframes glitch-pink {
+        0% { opacity: 0; transform: translate(-4px, 1px) skewX(-10deg); }
+        20% { opacity: 0.7; transform: translate(2px, -1px) skewX(8deg); }
+        35% { opacity: 0.2; transform: translate(-1px, 1px) skewX(-4deg); }
+        50% { opacity: 0.8; transform: translate(1px, 0px) skewX(1deg); }
+        100% { opacity: 0.75; transform: translate(1px, 1px); }
+      }
+
+      @keyframes glitch-cyan {
+        0% { opacity: 0; transform: translate(4px, -1px) skewX(10deg); }
+        20% { opacity: 0.7; transform: translate(-2px, 1px) skewX(-8deg); }
+        35% { opacity: 0.2; transform: translate(1px, -1px) skewX(4deg); }
+        50% { opacity: 0.8; transform: translate(-1px, 0px) skewX(-1deg); }
+        100% { opacity: 0.75; transform: translate(-1px, -1px); }
+      }
+
+      @keyframes glitch-main {
+        0% { opacity: 0; transform: scaleX(0.8) skewX(-10deg); filter: blur(3px) brightness(1.8); }
+        15% { opacity: 0.8; transform: scaleX(1.03) skewX(8deg); filter: blur(0.8px) brightness(1.2); }
+        30% { opacity: 0.3; transform: scaleX(0.97) skewX(-4deg); filter: blur(1.5px) brightness(1.5); }
+        45% { opacity: 1; transform: scaleX(1) skewX(1deg); filter: blur(0px) brightness(1); }
+        100% { opacity: 1; transform: scaleX(1) skewX(0deg); filter: blur(0px) brightness(1); }
+      }
+    </style>
+  </defs>
+  <text x="300" y="32" class="glow-shadow-pink">// COMPLETE REGISTRY</text>
+  <text x="300" y="32" class="glow-shadow-cyan">// COMPLETE REGISTRY</text>
+  <text x="300" y="32" class="main-text">// COMPLETE REGISTRY</text>
+</svg>

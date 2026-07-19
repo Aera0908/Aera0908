@@ -1,107 +1,6 @@
-<style>
-  /* Base styles */
-  .heavy-header {
-    opacity: 0;
-    animation: heavy-header-entry 1.2s cubic-bezier(0.19, 1, 0.22, 1) both;
-    transform-origin: left;
-    color: #f8e602;
-    text-shadow: 0 0 8px rgba(248, 230, 2, 0.4);
-  }
-
-  .light-content {
-    opacity: 0;
-    animation: light-content-entry 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  }
-
-  .banner-container {
-    opacity: 0;
-    animation: banner-entry 1s cubic-bezier(0.25, 1, 0.5, 1) both;
-  }
-
-  /* Keyframe Definitions */
-  @keyframes banner-entry {
-    0% {
-      opacity: 0;
-      transform: scale(0.97);
-      filter: blur(6px);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1);
-      filter: blur(0);
-    }
-  }
-
-  @keyframes heavy-header-entry {
-    0% {
-      opacity: 0;
-      transform: translateX(-30px) skewX(-15deg);
-      filter: blur(6px) brightness(2.5);
-      color: #ff2d78;
-      text-shadow: 0 0 15px #ff2d78;
-    }
-    20% {
-      opacity: 0.8;
-      transform: translateX(8px) skewX(10deg);
-      filter: blur(1.5px) brightness(1.3);
-      color: #f8e602;
-      text-shadow: 0 0 8px #f8e602;
-    }
-    40% {
-      opacity: 0.3;
-      transform: translateX(-4px) skewX(-5deg);
-      filter: blur(3px) brightness(1.8);
-      color: #ff2d78;
-    }
-    60% {
-      opacity: 1;
-      transform: translateX(2px) skewX(2deg);
-      filter: blur(0.5px) brightness(1.1);
-      color: #f8e602;
-      text-shadow: 0 0 10px #f8e602;
-    }
-    80% {
-      opacity: 0.9;
-      transform: translateX(-1px) skewX(-1deg);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0px) skewX(0deg);
-      filter: blur(0px) brightness(1);
-      color: #f8e602;
-      text-shadow: 0 0 4px rgba(248, 230, 2, 0.4);
-    }
-  }
-
-  @keyframes light-content-entry {
-    0% {
-      opacity: 0;
-      transform: translateY(12px);
-      filter: blur(3px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-      filter: blur(0);
-    }
-  }
-
-  /* Staggered animation delays */
-  .delay-1 { animation-delay: 0.1s; }
-  .delay-2 { animation-delay: 0.3s; }
-  .delay-3 { animation-delay: 0.5s; }
-  .delay-4 { animation-delay: 0.7s; }
-  .delay-5 { animation-delay: 0.9s; }
-  .delay-6 { animation-delay: 1.1s; }
-  .delay-7 { animation-delay: 1.3s; }
-  .delay-8 { animation-delay: 1.5s; }
-  .delay-9 { animation-delay: 1.7s; }
-</style>
-
-<div class="banner-container delay-1">
 <div align="center">
 
-<img src="design_elements/name_banner.png" width="100%"/>
+<img src="design_elements/name_banner.svg" width="100%"/>
 
 </div>
 
@@ -123,11 +22,10 @@
 <a href="https://aera0908.github.io"><img src="design_elements/btn_portfolio.svg" width="220" alt="Enter Portfolio"/></a>
 
 </div>
-</div>
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
 
-<div class="light-content delay-2" align="center">
+<div align="center">
 
 <img src="https://media.giphy.com/media/3VLajsSQMEMxvQQv8N/giphy.gif" width="480"/>
 
@@ -135,10 +33,9 @@
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
 
-<div class="light-content delay-3">
 <div align="center">
 
-<h2 class="heavy-header">> WORK HISTORY</h2>
+<img src="design_elements/hdr_work_history.svg" width="450" alt="Work History"/>
 
 | Role                                  | Organization                             |     Period     |
 | :------------------------------------ | :--------------------------------------- | :------------: |
@@ -150,25 +47,20 @@
 **Freelance** — Web2/Web3 dashboards, PostgreSQL schema optimization, Node.js/Express microservices, MetaMask EIP-1193, crypto payment rails.
 
 </div>
-</div>
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
 
-<div class="light-content delay-4">
 <div align="center">
 
-<h2 class="heavy-header">> COMPLETED MISSIONS</h2>
+<img src="design_elements/hdr_completed_missions.svg" width="450" alt="Completed Missions"/>
 
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjkwNDVkbDg5anhhN3NxYnBncDBjcm5zN2duMGZqM2lrMWN3bjl4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DnaRlPG4o53PGvgtPP/giphy.gif" width="460"/>
 
 <br/><br/>
 
-<h3 class="heavy-header">// FEATURED NEURAL PROJECTS</h3>
+<img src="design_elements/hdr_featured_projects.svg" width="400" alt="Featured Neural Projects"/>
 
-</div>
-</div>
-
-<table align="center" width="100%" class="light-content delay-5">
+<table align="center" width="100%">
 <tr>
 <td align="center" width="50%" valign="top">
 
@@ -211,10 +103,7 @@
 
 <br/><br/>
 
-<div class="light-content delay-6">
-<div align="center">
-
-<h3 class="heavy-header">// COMPLETE REGISTRY</h3>
+<img src="design_elements/hdr_complete_registry.svg" width="400" alt="Complete Registry"/>
 
 | Project                                                            | Stack                                            |     Year     |
 | :----------------------------------------------------------------- | :----------------------------------------------- | :----------: |
@@ -228,14 +117,12 @@
 | **Manhwa Reader** — SPA Web App                                    | React 19, TypeScript, Vite, MangaDex API         |     2026     |
 
 </div>
-</div>
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
 
-<div class="light-content delay-7">
 <div align="center">
 
-<h2 class="heavy-header">> SYSTEM TELEMETRY</h2>
+<img src="design_elements/hdr_system_telemetry.svg" width="450" alt="System Telemetry"/>
 
 <table align="center" width="100%">
 <tr>
@@ -253,16 +140,12 @@
 </table>
 
 </div>
-</div>
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
 
-<div class="light-content delay-8">
 <div align="center">
 
-<h2 class="heavy-header">> CYBERWARE — TECH STACK</h2>
-
-</div>
+<img src="design_elements/hdr_tech_stack.svg" width="450" alt="Tech Stack"/>
 
 <table align="center">
 <tr>
@@ -357,14 +240,14 @@
 </td>
 </tr>
 </table>
+
 </div>
 
 <img src="design_elements/cyber_divider.svg" width="100%"/>
 
-<div class="light-content delay-9">
 <div align="center">
 
-<h2 class="heavy-header">> CREDENTIALS</h2>
+<img src="design_elements/hdr_credentials.svg" width="450" alt="Credentials"/>
 
 | Certificate                    | Issuer                         |
 | :----------------------------- | :----------------------------- |
@@ -381,5 +264,4 @@
 
 <img src="design_elements/never_fade_away.svg" width="100%"/>
 
-</div>
 </div>

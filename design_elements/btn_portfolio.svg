@@ -10,11 +10,20 @@
         letter-spacing: 0.15em;
         text-anchor: middle;
       }
+      
+      .animated-border {
+        animation: border-pulse 2.5s infinite alternate ease-in-out;
+      }
+      
+      @keyframes border-pulse {
+        0% { stroke: #02d7f2; }
+        100% { stroke: #00f0ff; }
+      }
     </style>
   </defs>
   
   <!-- Outer card borders -->
-  <polygon points="5,5 220,5 235,20 235,43 20,43 5,28" fill="#0c0c0e" stroke="#02d7f2" stroke-width="2"/>
+  <polygon points="5,5 220,5 235,20 235,43 20,43 5,28" fill="#0c0c0e" stroke="#02d7f2" stroke-width="2" class="animated-border"/>
   <polygon points="8,8 217,8 232,23 232,40 23,40 8,25" fill="#141419"/>
   
   <!-- Neon pink accent block on the cut corner -->

@@ -1,9 +1,38 @@
 <svg width="1000" height="24" viewBox="0 0 1000 24" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .neon-cyan { stroke: #02d7f2; }
+      .neon-cyan { stroke: #02d7f2; animation: cyan-pulse 3s infinite alternate; }
       .neon-yellow { fill: #f8e602; stroke: #f8e602; }
-      .neon-pink { stroke: #ff2d78; fill: #ff2d78; }
+      .neon-pink { stroke: #ff2d78; fill: #ff2d78; animation: pink-pulse 2s infinite alternate; }
+      
+      .center-stripe {
+        animation: warning-blink 4s infinite ease-in-out;
+      }
+      
+      .dot-marker {
+        animation: dot-glow 1.5s infinite ease-in-out alternate;
+        transform-origin: center;
+      }
+      
+      @keyframes cyan-pulse {
+        0% { opacity: 0.7; stroke-width: 1.2; }
+        100% { opacity: 1; stroke-width: 1.8; }
+      }
+      
+      @keyframes pink-pulse {
+        0% { opacity: 0.3; stroke-width: 0.6; }
+        100% { opacity: 0.8; stroke-width: 1.1; }
+      }
+      
+      @keyframes warning-blink {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 0.3; }
+      }
+      
+      @keyframes dot-glow {
+        0% { opacity: 0.4; }
+        100% { opacity: 1; }
+      }
     </style>
   </defs>
   
@@ -15,7 +44,7 @@
   <path d="M 10 15 L 435 15 L 445 23 L 555 23 L 565 15 L 990 15" class="neon-pink" stroke-width="0.8" opacity="0.5"/>
   
   <!-- Cyberpunk warning stripes in the center cutout -->
-  <g opacity="0.85">
+  <g opacity="0.85" class="center-stripe">
     <polygon points="465,19 471,19 464,13 458,13" fill="#f8e602"/>
     <polygon points="475,19 481,19 474,13 468,13" fill="#f8e602"/>
     <polygon points="485,19 491,19 484,13 478,13" fill="#f8e602"/>
@@ -36,8 +65,8 @@
   <rect x="978" y="7" width="4" height="10" fill="#ff2d78" opacity="0.7"/>
   
   <!-- Small dot status markers -->
-  <circle cx="420" cy="12" r="2.5" fill="#f8e602"/>
-  <circle cx="580" cy="12" r="2.5" fill="#f8e602"/>
+  <circle cx="420" cy="12" r="2.5" fill="#f8e602" class="dot-marker"/>
+  <circle cx="580" cy="12" r="2.5" fill="#f8e602" class="dot-marker"/>
   
   <circle cx="400" cy="12" r="1.5" fill="#02d7f2" opacity="0.6"/>
   <circle cx="600" cy="12" r="1.5" fill="#ff2d78" opacity="0.6"/>

@@ -2,6 +2,7 @@
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      
       .glow-text {
         font-family: 'Share Tech Mono', monospace;
         font-weight: 900;
@@ -9,12 +10,70 @@
         letter-spacing: 0.3em;
         text-anchor: middle;
       }
+      
       .sub-text {
         font-family: 'Share Tech Mono', monospace;
         font-size: 11px;
         letter-spacing: 0.18em;
         text-anchor: middle;
         fill: #02d7f2;
+        opacity: 0;
+        animation: sub-fade 1.2s ease-out both;
+        animation-delay: 0.6s;
+      }
+      
+      .text-pink {
+        animation: glitch-pink 2s infinite linear;
+      }
+      
+      .text-cyan {
+        animation: glitch-cyan 2s infinite linear;
+      }
+      
+      .text-yellow {
+        animation: glitch-main 3s infinite linear;
+      }
+      
+      .border-main {
+        animation: border-flicker 4s infinite alternate;
+      }
+
+      @keyframes sub-fade {
+        0% { opacity: 0; transform: translateY(4px); }
+        100% { opacity: 0.85; transform: translateY(0); }
+      }
+
+      @keyframes glitch-pink {
+        0%, 100% { transform: translate(3px, 2px); }
+        20% { transform: translate(-2px, -1px) skewX(-5deg); }
+        40% { transform: translate(1px, 1px); }
+        60% { transform: translate(-3px, -2px) skewX(5deg); }
+        80% { transform: translate(2px, 0px); }
+      }
+
+      @keyframes glitch-cyan {
+        0%, 100% { transform: translate(-3px, -2px); }
+        20% { transform: translate(2px, 1px) skewX(5deg); }
+        40% { transform: translate(-1px, -1px); }
+        60% { transform: translate(3px, 2px) skewX(-5deg); }
+        80% { transform: translate(-2px, 0px); }
+      }
+
+      @keyframes glitch-main {
+        0%, 88%, 93%, 100% { transform: translate(0px, 0px); }
+        90% { transform: translate(-2px, 1px) skewX(-10deg); }
+        91% { transform: translate(3px, -1px) skewX(10deg); }
+        92% { transform: translate(-1px, 2px); }
+      }
+      
+      @keyframes border-flicker {
+        0%, 100% { opacity: 0.65; }
+        45% { opacity: 0.65; }
+        46% { opacity: 0.2; }
+        47% { opacity: 0.65; }
+        60% { opacity: 0.65; }
+        61% { opacity: 0.1; }
+        62% { opacity: 0.65; }
       }
     </style>
     <filter id="neon-glow">
@@ -30,8 +89,8 @@
   <polygon points="50,15 950,15 980,45 980,115 950,115 50,115 20,85 20,45" fill="#08080a" stroke="#f8e602" stroke-width="2" />
   
   <!-- Offset accent border line -->
-  <polygon points="52,17 948,17 978,47 978,113 948,113 52,113 22,83 22,47" fill="none" stroke="#ff2d78" stroke-width="0.75" opacity="0.65" />
-  <polygon points="48,13 952,13 982,43 982,117 952,117 48,117 18,87 18,43" fill="none" stroke="#02d7f2" stroke-width="0.75" opacity="0.65" />
+  <polygon points="52,17 948,17 978,47 978,113 948,113 52,113 22,83 22,47" fill="none" stroke="#ff2d78" stroke-width="0.75" opacity="0.65" class="border-main" />
+  <polygon points="48,13 952,13 982,43 982,117 952,117 48,117 18,87 18,43" fill="none" stroke="#02d7f2" stroke-width="0.75" opacity="0.65" class="border-main" />
 
   <!-- Diagonal hazard warning stripes on left and right side -->
   <g opacity="0.8">
@@ -54,11 +113,11 @@
 
   <!-- Glitchy layered text effect for "NEVER FADE AWAY" -->
   <!-- Magenta offset -->
-  <text x="503" y="75" class="glow-text" fill="#ff2d78" opacity="0.75">NEVER FADE AWAY</text>
+  <text x="503" y="75" class="glow-text text-pink" fill="#ff2d78" opacity="0.75">NEVER FADE AWAY</text>
   <!-- Cyan offset -->
-  <text x="497" y="75" class="glow-text" fill="#02d7f2" opacity="0.75">NEVER FADE AWAY</text>
+  <text x="497" y="75" class="glow-text text-cyan" fill="#02d7f2" opacity="0.75">NEVER FADE AWAY</text>
   <!-- Main yellow glow text -->
-  <text x="500" y="73" class="glow-text" fill="#f8e602" filter="url(#neon-glow)">NEVER FADE AWAY</text>
+  <text x="500" y="73" class="glow-text text-yellow" fill="#f8e602" filter="url(#neon-glow)">NEVER FADE AWAY</text>
   
   <!-- Sub-telemetry status text -->
   <text x="500" y="93" class="sub-text" opacity="0.85">
